@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.clr {
+    clear: left;
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bakery.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.home .parent {
+    width: 800px;
+    margin: 200px auto;
+    text-align: center;
+}
+.home .parent p {
+    color: #ffffeb;
+    font-size: 16px;
+    padding: 20px;
+    margin-top: 15px;
+}
+.home .parent h1 {
+    font-size: 65px;
+    color: #ffffff;
+    font-family: "Alegreya";
+    font-weight: 200;
+}
+.home .parent .btn {
+    color: #ffffff;
+    background-color: #8e7754;
+    font-size: 14px;
+    margin: 20px 10px 0;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+.home .parent .btn2 {
+    background: none;
+}
+.sec-two{
+    height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.sec-two .container {
+    margin: auto;
+}
+.sec-two .container .left {
+    width: 45%;
+}
+.sec-two .container .left img {
+    width: 100%;
+    margin: 100px 50px 0 0;
+    float: left;
+}
+.sec-two .container .right { 
+    margin: 130px 0 0 40px;
+}
+.sec-two .container .right h3 {
+    font-size: 32px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.sec-two .container .right p {
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    color: #686868;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.sec-two .container .right ul {
+    list-style: none;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.sec-two .container .right ul li {
+    margin: 15px 0 0 20px;
+}
+.our-location {
+    background-color: #efefef;
+    height: calc(100vh - 200px);
+    padding-bottom: 60px;
+}
+.our-location .container {
+    padding-top: 90px;
+}
+.our-location .container .left {
+    width: 45%;
+    float: left;
+}
+.our-location .container .left h3 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Alegreya Sans";
+    margin: 0 0 20px;
+}
+.our-location .container .left p {
+    font-size: 17px;
+    font-family: "Alegreya Sans";
+    color: #686868;
+    line-height: 1.5;
+    padding: 0 20px 20px 0;
+}
+.our-location .container .right {
+    width: 45%;
+    float: right;
+}
+.our-location .container .right img {
+    width: 100%;
+}
+.our-baking {
+    height: 100vh;
+    text-align: center;
+}
+.our-baking .container .main-heading {
+    padding: 100px 0 20px;
+    margin-bottom: 40px;
+}
+.our-baking .container .main-heading h3 {
+    font-family: "Alegreya Sans";
+    font-size: 30px;
+    font-weight: 400;
+    color: #303030;
+}
+.our-baking .container .main-heading p {
+    font-size: 17px;
+    margin: 17px 0 0;
+    color: #888;
+}
+.our-baking .container .cards .card {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+.our-baking .container .cards img {
+    width: 100%;
+}
+.our-baking .container .cards h4 {
+    font-family: "Alegreya Sans";
+    font-size: 22px;
+    font-weight: 300;
+    color: #303030;
+    padding: 20px;
+    
+}
+.our-baking .container .cards p {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #686868;
+}
+.contact {
+    width: 100%;
+    padding-bottom: 100px;
+}
+.contact .grand {
+    background-color: #f8f8f8;
+    height: 80vh;
+    margin-top: 100px;
+    
+}
+.contact .container {
+    height: 100vh;
+}
+.contact .info {
+    margin-top: 70px;
+    width: 48%;
+    float: left;
+}
+.contact .info h4 {
+    font-size: 30px;
+    font-family: "Alegreya Sans";
+    font-weight: 300;
+    color: #303030;
+    margin: 0 0 25px;
+    
+}
+.contact .info p {
+    font-size: 17px;
+    color: #686868;
+    margin-bottom: 60px;
+}
+.contact .info span {
+    display: block;
+    color: #686868;
+    font-size: 15px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.contact .info h5 {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    color: #686868;
+}
+.contact .map {
+    margin-top: 70px;
+    width: 48%;
+    height: 60%;
+    background-color: red;
+    float: right;
+
+}
+
+
+
+
+
+
+
+
